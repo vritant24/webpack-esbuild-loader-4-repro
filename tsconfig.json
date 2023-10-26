@@ -1,0 +1,19 @@
+{
+    "compilerOptions": {
+      "composite": true,
+      "allowJs": true
+    },
+    "files": [],
+    "references": [
+      {
+        "path": "./src/common/tsconfig.json"
+      },
+      {
+        "path": "./src/web/tsconfig.json"
+      },
+      {
+        "path": "./src/desktop/tsconfig.json"
+      }
+    ]
+  }
+  

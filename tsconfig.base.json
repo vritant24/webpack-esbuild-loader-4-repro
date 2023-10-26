@@ -1,0 +1,15 @@
+{
+    "compilerOptions": {
+      "strict": true,
+      "noImplicitReturns": true,
+      "noFallthroughCasesInSwitch": true,
+      "noUnusedParameters": true,
+      "isolatedModules": true,
+      "resolveJsonModule": true,
+      "noImplicitAny": true,
+      "noEmit": true,
+      "skipLibCheck": true,
+      "sourceMap": true
+    }
+  }
+  

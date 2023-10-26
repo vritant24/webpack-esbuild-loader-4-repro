@@ -1,0 +1,20 @@
+{
+    "extends": "../../tsconfig.base.json",
+    "compilerOptions": {
+      "module": "CommonJS",
+      "target": "ES2020",
+      "lib": ["WebWorker", "ES2020"],
+      "outDir": "../../out/lib/web",
+      "tsBuildInfoFile": "../../out/lib/web/compile.tsbuildInfo",
+      "incremental": true,
+      "composite": true,
+      "noEmit": false
+    },
+    "include": ["."],
+    "references": [
+      {
+        "path": "../common/tsconfig.json"
+      }
+    ]
+  }
+  
